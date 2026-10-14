@@ -32,7 +32,12 @@
     .grid { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; }
     .project { padding:18px 19px; border:1px solid var(--line); border-radius:16px; background:var(--white); }
     .project h3 { margin:0 0 6px; font-size:.98rem; }
-    .project p { margin:0; color:var(--muted); font-size:.93rem; }
+    .project p { margin:0; color:var(--muted); font-size:.93rem; }    .project a,.article a { color:#365343; font-weight:650; text-decoration:none; }
+    .project a:hover,.article a:hover { color:var(--accent); text-decoration:underline; }
+    .article { padding:18px 19px; border:1px solid var(--line); border-radius:16px; background:var(--white); }
+    .article h3 { margin:0 0 6px; font-size:.98rem; }
+    .article p { margin:0 0 10px; color:var(--muted); font-size:.93rem; }
+
     .skills { padding:19px 22px; border:1px solid var(--line); border-radius:18px; background:var(--white); }
     .skills p { margin:7px 0; color:#465d53; }
     .skills strong { color:var(--ink); }
@@ -44,7 +49,7 @@
 </head>
 <body>
 <main>
-  <nav class="nav" aria-label="Main navigation"><span>MANORATH KHANNA</span><span><a href="#experience">Experience</a> · <a href="#projects">Projects</a> · <a href="#skills">Skills</a></span></nav>
+  <nav class="nav" aria-label="Main navigation"><span>MANORATH KHANNA</span><span><a href="#experience">Experience</a> · <a href="#projects">Projects</a> · <a href="#articles">Articles</a> · <a href="#skills">Skills</a></span></nav>
   <header class="hero">
     <div class="eyebrow">Product · Strategy · Enterprise AI</div>
     <h1>Manorath Khanna</h1>
@@ -90,9 +95,17 @@
       <article class="project"><h3>iMobile Play Store Review Intelligence</h3><p>Built an AI-driven review analysis system to identify issue spikes, classify customer pain points, and turn unstructured feedback into product insights.</p></article>
       <article class="project"><h3>Sociio Ichor</h3><p>Built a national emergency donor platform that enabled 1,000+ life-saving donations through streamlined workflows and targeted campaigns.</p></article>
       <article class="project"><h3>MSM</h3><p>Built an NGO-startup marketplace that generated $2K in revenue within 3 months.</p></article>
-      <article class="project"><h3>Dental Facebow</h3><p>Designed a biomedical dental facebow device; received a utility patent.</p></article>
+      <article class="project"><h3>Dental Facebow</h3><p>Designed a biomedical dental facebow device; received Indian Patent No. 533244 for “Apparatus for Measuring Mandibular Movement of a Patient.” <a href="https://www.manipal.edu/content/dam/manipal/mu/documents/mahe/Research/Research-Bulletins/MAHE%20Research%20E%20Bulletin%20Apr%20-%20Jun%2024.pdf" target="_blank" rel="noreferrer">View patent listing ↗</a></p></article>
+    </div>
+  </section>  <section id="articles">
+    <h2>Sociio Ichor in the news</h2>
+    <div class="grid">
+      <article class="article"><h3>MIT-MAHE students launch blood donors digital platform “Sociio Ichor”</h3><p>Manipal Academy of Higher Education covered the launch of the student-built platform connecting people who need blood with potential donors.</p><a href="https://www.manipal.edu/mu/news-events/inuguration-of-socio-ichor.html" target="_blank" rel="noreferrer">Read the Manipal announcement ↗</a></article>
+      <article class="article"><h3>Project Ichor connects plasma donors with patients</h3><p>Deccan Herald reported on the team’s early effort to connect patients in need of plasma with potential donors.</p><a href="https://www.deccanherald.com/india/karnataka/project-ichor-to-connect-patients-in-need-of-plasma-with-donors-980808.html" target="_blank" rel="noreferrer">Read the Deccan Herald article ↗</a></article>
     </div>
   </section>
+
+
 
   <section id="skills">
     <h2>Skills</h2>
